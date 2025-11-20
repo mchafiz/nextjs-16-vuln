@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   experimental: {
     turbopackFileSystemCacheForDev: true,
   },
-  // cacheComponents: true, // Disabled due to conflicts with dynamic routes
+  // cacheComponents: true, // TODO: Enable after resolving Clerk compatibility
   reactCompiler: true,
   images: {
     remotePatterns: [
